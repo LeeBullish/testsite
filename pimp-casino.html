@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hashpimps Balloon Pop</title>
-    <!-- Add your styling here -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Hash Pimps</title>
     <style>
+        /* Add the styling of the second piece of code here */
         body {
             font-family: Arial, sans-serif;
             background-color: #1b1b1b;
@@ -149,34 +150,66 @@
         margin-bottom: 10px;
     }
 }
-</style>
-    <!-- Styling section remains unchanged -->
+    </style>
 </head>
 <body>
-<h1>Hashpimps Balloon Pop</h1>
-<div class="bet-input">
-    <input type="number" id="bet-amount" placeholder="Bet amount" step="0.01">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="pimp-casino.html">Pimp Casino</a></li>
+                <li><a href="staking-rewards.html">Staking & Rewards</a></li>
+                <li><a href="advertisement-section.html">Advertisement Section</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="faq-support.html">FAQ & Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Hash Pimps</h1>
+            <!-- Add key highlights, news, and countdown timer here -->
+        </section>
+    </main>
+    <footer>
+        <img src="pimpinh aint easy.jpg" alt="A description of the image" width="300">
+        <p>&copy; 2023 Hash Pimps. All rights reserved.</p>
+    </footer>
 
-    <select id="num-balloons">
-        <option value="">Select number of balloons</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-    </select>
-    <button id="place-bet">Place Bet</button>
-</div>
-<div class="reward-display" id="reward-display">Demo Points: 1000</div>
-<div class="reward-display" id="losses-display">Losses: 0</div>
-<div class="reward-display" id="fees-display">Fees Collected: 0</div>
-<div class="balloons-container" id="balloons-container"></div>
-<script>
-    const placeBetButton = document.getElementById('place-bet');
+    <!-- The second piece of code starts here -->
+    <div id="balloon-pop">
+        <!-- Add the content of the second piece of code here -->
+    </head>
+    <body>
+    <h1>Hashpimps Balloon Pop</h1>
+    <div class="bet-input">
+        <input type="number" id="bet-amount" placeholder="Bet amount" step="0.01">
+    
+        <select id="num-balloons">
+            <option value="">Select number of balloons</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button id="place-bet">Place Bet</button>
+    </div>
+    <div class="reward-display" id="reward-display">Demo Points: 1000</div>
+    <div class="reward-display" id="losses-display">Losses: 0</div>
+    <div class="reward-display" id="fees-display">Fees Collected: 0</div>
+    <div class="balloons-container" id="balloons-container"></div>
+    </div>
+    <script>
+        // Add the JavaScript of the second piece of code here
+        const placeBetButton = document.getElementById('place-bet');
     const betAmountInput = document.getElementById('bet-amount');
     const numBalloons = document.getElementById('num-balloons');
     const balloonsContainer = document.getElementById('balloons-container');
@@ -269,6 +302,6 @@ if (isWinner) {
         balloonsContainer.innerHTML = '';
     }, 1000);
 }
-</script>
+    </script>
 </body>
 </html>
